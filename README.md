@@ -1,14 +1,10 @@
-# Welcome to your CDK TypeScript project
+# aws-cdk Terraform backend
 
-This is a blank project for CDK development with TypeScript.
+Terraform backend resources.
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+For a CFN template see [github.com/rhythmictech/AWS-CFN-Terraform-Bootstrap](https://github.com/rhythmictech/AWS-CFN-Terraform-Bootstrap)
 
-## Useful commands
+## First-Time CDK run
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+[bootstrap](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html#getting_started_bootstrap) with `cdk bootstrap aws://784384215106/us-east-1`
+
